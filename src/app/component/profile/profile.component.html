@@ -1,0 +1,4 @@
+<p>profile works!</p>
+<div *ngFor="let name of names; let i = index">
+    <button (click)="goToProfileDetail(name.id)">Detail User</button>
+</div>

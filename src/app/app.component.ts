@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dia-app-day2';
+  show: boolean = false;
+  names: string[] = ['Alice', 'Bob', 'Charlie', 'Diana'];
+
+  isError: boolean = true;
+  size: number = 14;
+
+  today: Date = new Date();
+  price: number = 100000;
+  text: string = 'hello world';
+  user: {} = { name: 'John', age: 30 };
+
 }
